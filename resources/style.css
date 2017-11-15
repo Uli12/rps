@@ -1,0 +1,18 @@
+.image {
+  height: 300px;
+  width: 450px
+}
+
+#battle {
+  display: flex;
+  justify-content: row;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FF693E;
+}
+
+#image_row {
+  padding-top: 30px;
+}

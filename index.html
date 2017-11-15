@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <!DOCTYPE html>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="resources/style.css" />
+  </head>
+<body>
+  <h1>Welcome to ROCK PAPER SCISSORS</h1>
+  <p>Choose an image to play against the computer.</p>
+  <p>Click an image!</p>
+
+  <div id="image_row">
+    <img src="resources/images/rock.png" class="image" id="rock" onclick="userClickRock(); computerChoice();" alt="Rock"/>
+    <img src="resources/images/paper.png" class="image" id="paper" onclick="userClickPaper(); computerChoice();" alt="Paper"/>
+    <img src="resources/images/scissors.png" class="image" id="scissors" onclick="userClickScissors(); computerChoice();" alt="Scissors"/>
+  </div> 
+  <div id="battle">
+      <div>
+        <img src="resources/images/white.png" class="image" id="user-choice" alt="white.img"/>
+      </div>
+      <div>
+        <img src="resources/images/white.png" class="image" id="comp-choice"  alt="white.img"/>
+      </div>
+  <p id="result"></p>
+  </div>
+
+
+
+
+
+
+  <!--tally wins losses and ties-->
+  <!--clear stats-->
+  <!--functional images-->
+
+  <script src="./main.js"></script>
+
+</body>
+
+
+
+</html>
